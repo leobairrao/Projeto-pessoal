@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body * {
+    font-weight: 600;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182C61;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container img {
+    width: 60px;
+}
+
+.section-img {
+    margin-right: 32px;
+    height: 400px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182C61;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+#sobre {
+    background-color: rgb(0, 161, 255, 0.4);
+}
+
+#titulos {
+    background-color: rgb(0, 161, 255, 0.4);
+}
+
+#duvidas .container{
+    display: block;
+}
+
+#duvidas .contato .img {
+    display: flex;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #182b61a2;
+} 
+
+footer {
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+footer p {
+    margin: 0 16px;
+}
